@@ -1,4 +1,18 @@
 public class Main {
+    public static class Person{
+        String fName;
+        String lName;
+        int age;
+        String club;
+
+        Person(String fName, String lName, String club, int age){
+            
+        }
+    }
+}
+
+
+/*public class Main {
     public static  class Car{
         String make;
         String model;
