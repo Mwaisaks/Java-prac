@@ -1,6 +1,3 @@
-
-
-
 // Interface
 public interface Animal1 {
     //method with no bodies
