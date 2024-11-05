@@ -15,6 +15,8 @@ public class Exceptions {
         int age = scanner.nextInt();
 
         checkAge(age);
+
+        scanner.close();
     }
 }
 
