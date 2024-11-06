@@ -21,6 +21,14 @@ public class Exceptions {
 }
 
 /*
+Here are some situations where you’d anticipate errors and use try-catch:
+
+Input/Output (I/O) Operations: File reading, writing, or any disk access, since the file may not exist, or permissions may be denied.
+Thread Operations: Using Thread.sleep() requires a try-catch because the thread might get interrupted by another thread.
+Networking: When working with APIs or sockets, network connectivity issues might arise.
+User Input: Parsing data from users, like converting strings to numbers, can throw NumberFormatException.
+
+
 Error/Exception	Description
 ArithmeticError	Occurs when a numeric calculation goes wrong
 ArrayIndexOutOfBoundsException	Occurs when trying to access an index number that does not exist in an array
