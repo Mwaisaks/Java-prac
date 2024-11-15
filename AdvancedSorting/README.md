@@ -4,7 +4,7 @@ Advanced Sorting
  * The Comparable and Comparator interfaces allow you to specify the rule used to sort objects
  * 
  Comparator
- * this interface has a single method: compare(T Object1, T Object2) ~explain the syntax here
+ * this interface has a single method: compare(T Object1, T Object2) 
  * It defines a way to compare two objects of type T and determine their order
  * compare() should return:
  * A negative integer if Object1 < Object2
