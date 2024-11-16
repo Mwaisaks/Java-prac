@@ -34,6 +34,9 @@ public class Sorting5 {
          * a single statement in the code
          */
 
+        //lambada expression for the compare method
+        //Comparator<String> comparator = (string1, string2) -> Integer.compare(string1.length(), string2.length());
+
         Collections.sort(string, comparator);
 
         System.out.println("Strings sorted by length: ");
@@ -42,3 +45,4 @@ public class Sorting5 {
         }
     }
 }
+
