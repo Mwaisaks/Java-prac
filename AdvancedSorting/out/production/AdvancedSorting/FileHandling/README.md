@@ -60,3 +60,12 @@ Use scanner class to read the contents of the file
 Delete a File
 Use the delete() method
 You can also delete a folder provided that it's empty
+
+e.printStackTrace()
+The line e.printStackTrace() is used to print the complete stack trace of an exception.
+Purpose:
+It helps in debugging by showing:
+The type of exception that occurred.
+The exact line in the code where the exception occurred.
+The method call hierarchy leading to the exception.
+Without e.printStackTrace(), you might only see a generic error message, making it harder to debug.

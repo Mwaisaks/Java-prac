@@ -8,7 +8,7 @@ public class ReadFile {
     public static void main(String[] args) {
         //reading the file
         try {
-            File myFile = new File("Files2.txt");
+            File myFile = new File("FileHandling/Files2.txt");
 
             Scanner myReader = new Scanner(myFile);
 
@@ -24,7 +24,7 @@ public class ReadFile {
         }
 
         //File Information
-        File myFile = new File("Files2.txt");
+        File myFile = new File("FileHandling/Files2.txt");
 
         if (myFile.exists()) {
             System.out.println("---File Information---");
