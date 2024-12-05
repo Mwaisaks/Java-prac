@@ -1,8 +1,8 @@
-class RunnableDemo implements Runnable{
+class RunnableDemo1 implements Runnable{
     private Thread t;
     private String threadName;
 
-    RunnableDemo(String name){
+    RunnableDemo1(String name){
         threadName = name;
         System.out.println("Creating "+ threadName);
     }
@@ -32,10 +32,10 @@ class RunnableDemo implements Runnable{
 }
 public class TestThread {
     public static void main(String[] args) {
-        RunnableDemo R1 = new RunnableDemo("Thread-1");
+        RunnableDemo1 R1 = new RunnableDemo1("Thread-1");
         R1.start();
 
-        RunnableDemo R2 = new RunnableDemo("Thread-2");
+        RunnableDemo1 R2 = new RunnableDemo1("Thread-2");
         R2.start();
     }
 }
