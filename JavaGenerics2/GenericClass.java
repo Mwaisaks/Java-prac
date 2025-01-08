@@ -13,7 +13,7 @@ public class GenericClass<T> {
 }
 
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         GenericClass<String> stringBox = new GenericClass<>();
         stringBox.setValue("Hello, Generics!");
